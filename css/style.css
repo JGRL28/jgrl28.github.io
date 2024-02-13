@@ -132,7 +132,7 @@ Fuentes para usar
 
 body {
   /* background: linear-gradient(45deg, #000000 40%, #d1d1d1); */
-  background-image: url(/img/background.png);
+  background-image: url(/img/Background.jpg);
 
   /* background-color: #4f4f4f; */
 }
@@ -503,11 +503,103 @@ body {
   margin: 5vw 0;
 }
 
-.cocteles-clasicos {
+.cockteles-clasicos {
+  background-image: url(/img/tragos/Gin-ampliado.jpg);
+  background-size: cover;
   font-size: 1rem;
   margin: 5vw 0;
   padding: 5vh 10vw;
 }
+
+.energy-drinks {
+  background-image: url(/img/tragos/bartender-ampliado.jpg);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.mojitos {
+  background-image: url(/img/tragos/mojito-ampliado.jpg);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.tragos-espumante {
+  background-image: url(/img/tragos/Naranja-ampliado.jpg);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.pisco {
+  background-image: url(/img/tragos/pisco-ampliado.jpg);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.ron {
+  background-image: url(/img/tragos/caipiriña-ampliado.jpg);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.tequila {
+  background-image: url(/img/tragos/tequila-ampliado.jpg);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.gin {
+  background-image: url(/img/tragos/Spritz-ampliado.jpg);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.vodka {
+  background-image: url(/img/tragos/caipiriña-ampliado.jpg);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.whisky-bourbon {
+  background-image: url(/img/tragos/whisky-ampliado.jpg);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.vinos {
+  background-image: url(/img/tragos/vinos.jpg);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.shops {
+  background-image: url(/img/tragos/schops.png);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+
 
 
 
@@ -757,6 +849,69 @@ body {
     padding: 0;
   }
 
+  /* tragos */
+  .cockteles-clasicos {
+    background-position: center;
+    padding: 0;
+  }
+
+  .energy-drinks {
+    background-position: center;
+    padding: 0;
+  }
+
+  .mojitos {
+    background-position: center;
+    padding: 0;
+  }
+
+  .tragos-espumante {
+    background-position: center;
+    padding: 0;
+  }
+
+  .pisco {
+    background-position: center;
+    padding: 0;
+  }
+
+  .ron {
+    background-position: center;
+    padding: 0;
+  }
+
+  .tequila {
+    background-position: center;
+    padding: 0;
+  }
+
+  .gin {
+    background-position: center;
+    padding: 0;
+  }
+
+  .vodka {
+    background-position: center;
+    padding: 0;
+  }
+
+  .whisky-bourbon {
+    background-position: center;
+    padding: 0;
+  }
+
+  .vinos {
+    background-position: right;
+    padding: 0;
+  }
+
+  .shops {
+    background-position: center;
+    padding: 0;
+  }
+
+
+
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
@@ -1004,6 +1159,67 @@ body {
     padding: 0;
   }
 
+  /* tragos */
+  .cockteles-clasicos {
+    background-position: center;
+    padding: 0;
+  }
+
+  .energy-drinks {
+    background-position: center;
+    padding: 0;
+  }
+
+  .mojitos {
+    background-position: center;
+    padding: 0;
+  }
+
+  .tragos-espumante {
+    background-position: center;
+    padding: 0;
+  }
+
+  .pisco {
+    background-position: center;
+    padding: 0;
+  }
+
+  .ron {
+    background-position: center;
+    padding: 0;
+  }
+
+  .tequila {
+    background-position: center;
+    padding: 0;
+  }
+
+  .gin {
+    background-position: center;
+    padding: 0;
+  }
+
+  .vodka {
+    background-position: center;
+    padding: 0;
+  }
+
+  .whisky-bourbon {
+    background-position: center;
+    padding: 0;
+  }
+
+  .vinos {
+    background-position: right;
+    padding: 0;
+  }
+
+  .shops {
+    background-position: center;
+    padding: 0;
+  }
+
 }
 
 @media screen and (min-width: 600px) and (max-width: 860px) {
@@ -1215,6 +1431,67 @@ body {
     background-image: url(/img/img-media-query/hamburguesa.jpg);
     background-size: cover;
     height: 100%;
+    padding: 0;
+  }
+
+  /* tragos */
+  .cockteles-clasicos {
+    background-position: center;
+    padding: 0;
+  }
+
+  .energy-drinks {
+    background-position: center;
+    padding: 0;
+  }
+
+  .mojitos {
+    background-position: center;
+    padding: 0;
+  }
+
+  .tragos-espumante {
+    background-position: center;
+    padding: 0;
+  }
+
+  .pisco {
+    background-position: center;
+    padding: 0;
+  }
+
+  .ron {
+    background-position: center;
+    padding: 0;
+  }
+
+  .tequila {
+    background-position: center;
+    padding: 0;
+  }
+
+  .gin {
+    background-position: center;
+    padding: 0;
+  }
+
+  .vodka {
+    background-position: center;
+    padding: 0;
+  }
+
+  .whisky-bourbon {
+    background-position: center;
+    padding: 0;
+  }
+
+  .vinos {
+    background-position: right;
+    padding: 0;
+  }
+
+  .shops {
+    background-position: center;
     padding: 0;
   }
 }
@@ -1439,6 +1716,67 @@ body {
     background-size: cover;
     background-position: center;
     height: 100%;
+    padding: 0;
+  }
+
+  /* tragos */
+  .cockteles-clasicos {
+    background-position: center;
+    padding: 0;
+  }
+
+  .energy-drinks {
+    background-position: center;
+    padding: 0;
+  }
+
+  .mojitos {
+    background-position: center;
+    padding: 0;
+  }
+
+  .tragos-espumante {
+    background-position: center;
+    padding: 0;
+  }
+
+  .pisco {
+    background-position: center;
+    padding: 0;
+  }
+
+  .ron {
+    background-position: center;
+    padding: 0;
+  }
+
+  .tequila {
+    background-position: center;
+    padding: 0;
+  }
+
+  .gin {
+    background-position: center;
+    padding: 0;
+  }
+
+  .vodka {
+    background-position: center;
+    padding: 0;
+  }
+
+  .whisky-bourbon {
+    background-position: center;
+    padding: 0;
+  }
+
+  .vinos {
+    background-position: right;
+    padding: 0;
+  }
+
+  .shops {
+    background-position: center;
     padding: 0;
   }
 }
