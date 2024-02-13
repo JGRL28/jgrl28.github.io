@@ -599,6 +599,31 @@ body {
   padding: 5vh 10vw;
 }
 
+/* footer */
+
+.footer {
+  background-color: #4f4f4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy {
+  margin-right: 4vw;
+}
+
+.rrss {
+  display: flex;
+  padding: 5vw;
+}
+
+.insta {
+  padding-right: 4vw;
+}
+
+.icono {
+  padding-right: 1vw;
+}
 
 
 
