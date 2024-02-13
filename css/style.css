@@ -603,6 +603,7 @@ body {
 
 .footer {
   background-color: #4f4f4f;
+  height: 7rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -614,7 +615,6 @@ body {
 
 .rrss {
   display: flex;
-  padding: 5vw;
 }
 
 .insta {
