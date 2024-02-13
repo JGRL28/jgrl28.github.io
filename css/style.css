@@ -935,7 +935,13 @@ body {
     padding: 0;
   }
 
+  .copy {
+    padding-left: 4vw;
+  }
 
+  .rrss {
+    padding-right: 4vw;
+  }
 
 }
 
@@ -1245,6 +1251,14 @@ body {
     padding: 0;
   }
 
+  .copy {
+    padding-left: 4vw;
+  }
+
+  .rrss {
+    padding-right: 4vw;
+  }
+
 }
 
 @media screen and (min-width: 600px) and (max-width: 860px) {
@@ -1518,6 +1532,14 @@ body {
   .shops {
     background-position: center;
     padding: 0;
+  }
+
+  .copy {
+    padding-left: 4vw;
+  }
+
+  .rrss {
+    padding-right: 4vw;
   }
 }
 
@@ -1802,6 +1824,14 @@ body {
   .shops {
     background-position: center;
     padding: 0;
+  }
+
+  .copy {
+    padding-left: 4vw;
+  }
+
+  .rrss {
+    padding-right: 4vw;
   }
 
 }
