@@ -505,7 +505,7 @@ body {
 
 .cockteles-clasicos {
   background-image: url(/img/tragos/Gin-ampliado.jpg);
-  background-size: cover;
+  background-position: center;
   font-size: 1rem;
   margin: 5vw 0;
   padding: 5vh 10vw;
@@ -546,6 +546,7 @@ body {
 .ron {
   background-image: url(/img/tragos/caipiriña-ampliado.jpg);
   background-size: cover;
+  background-position: center;
   font-size: 1rem;
   margin: 5vw 0;
   padding: 5vh 10vw;
@@ -554,6 +555,7 @@ body {
 .tequila {
   background-image: url(/img/tragos/tequila-ampliado.jpg);
   background-size: cover;
+  background-position: center;
   font-size: 1rem;
   margin: 5vw 0;
   padding: 5vh 10vw;
@@ -562,6 +564,7 @@ body {
 .gin {
   background-image: url(/img/tragos/Spritz-ampliado.jpg);
   background-size: cover;
+  background-position: center;
   font-size: 1rem;
   margin: 5vw 0;
   padding: 5vh 10vw;
@@ -570,6 +573,7 @@ body {
 .vodka {
   background-image: url(/img/tragos/caipiriña-ampliado.jpg);
   background-size: cover;
+  background-position: center;
   font-size: 1rem;
   margin: 5vw 0;
   padding: 5vh 10vw;
@@ -592,7 +596,7 @@ body {
 }
 
 .shops {
-  background-image: url(/img/tragos/schops.png);
+  background-image: url(/img/tragos/schops.jpg);
   background-size: cover;
   font-size: 1rem;
   margin: 5vw 0;
