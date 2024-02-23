@@ -689,6 +689,7 @@ body {
   .landing-p {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 1.5rem;
+    font-size: medium;
     border-radius: 5%;
   }
 
