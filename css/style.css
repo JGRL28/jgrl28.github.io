@@ -288,7 +288,7 @@ body {
 .selector {
   display: flex;
   flex-direction: column;
-  padding: 5vh;
+  padding: 5vh 0;
   align-self: center;
 }
 
