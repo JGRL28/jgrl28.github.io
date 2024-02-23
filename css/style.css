@@ -130,6 +130,18 @@ Fuentes para usar
   font-family: 'Dosis', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+article {
+  scroll-margin-top: 6rem;
+}
+
+section {
+  scroll-margin-top: 6rem;
+}
+
 body {
   /* background: linear-gradient(45deg, #000000 40%, #d1d1d1); */
   background-image: url(/img/Background.jpg);
@@ -272,6 +284,23 @@ body {
   background-color: #db272f;
   font-size: 1.5rem;
 }
+
+.selector {
+  display: flex;
+  flex-direction: column;
+  padding: 5vh 41vw;
+}
+
+#navegador {
+  padding: 1vh 0;
+}
+
+#navegadorSelect {
+  padding: 1.5vh;
+  background-color: #4f4f4f;
+}
+
+
 
 /* Carta */
 
