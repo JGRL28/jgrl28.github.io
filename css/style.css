@@ -478,6 +478,16 @@ body {
   text-wrap: balance;
 }
 
+.makis-gold-selection {
+  background-image: url(/img/Definidos/piqueos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 0.8rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+  text-wrap: balance;
+}
+
 .handrolls {
   background-image: url(/img/Definidos/handrolls.jpg);
   background-size: cover;
@@ -505,6 +515,17 @@ body {
   margin: 5vw 0;
   padding: 5vh 10vw;
 }
+
+.canasta {
+  background-image: url(/img/Definidos/canasta-papas.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+
 
 .sushiburguers {
   background-image: url(/img/Definidos/sushiburguer.jpg);
@@ -873,6 +894,14 @@ body {
     padding: 0;
   }
 
+  .makis-gold-selection {
+    background-image: url(/img/img-media-query/piqueos.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
   .handrolls {
     background-image: url(/img/img-media-query/handrolls.jpg);
     background-size: cover;
@@ -898,6 +927,12 @@ body {
 
   .sushiburguers {
     background-image: url(/img/img-media-query/sushiburger.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .canasta {
     background-size: cover;
     height: 100%;
     padding: 0;
@@ -1189,6 +1224,14 @@ body {
     padding: 0;
   }
 
+  .makis-gold-selection {
+    background-image: url(/img/img-media-query/piqueos.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
   .handrolls {
     background-image: url(/img/img-media-query/handrolls.jpg);
     background-size: cover;
@@ -1207,6 +1250,12 @@ body {
 
   .gohan {
     background-image: url(/img/img-media-query/gohan.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .canasta {
     background-size: cover;
     height: 100%;
     padding: 0;
@@ -1474,6 +1523,13 @@ body {
     padding: 0;
   }
 
+  .makis-gold-selection {
+    background-image: url(/img/img-media-query/piqueos.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
   .handrolls {
     background-image: url(/img/img-media-query/handrolls.jpg);
     background-size: cover;
@@ -1490,6 +1546,12 @@ body {
 
   .gohan {
     background-image: url(/img/img-media-query/gohan.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .canasta {
     background-size: cover;
     height: 100%;
     padding: 0;
@@ -1763,6 +1825,14 @@ body {
     padding: 0;
   }
 
+  .makis-gold-selection {
+    background-image: url(/img/img-media-query/piqueos.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
   .handrolls {
     background-image: url(/img/img-media-query/handrolls.jpg);
     background-size: cover;
@@ -1783,6 +1853,12 @@ body {
     background-image: url(/img/img-media-query/gohan.jpg);
     background-size: cover;
     background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .canasta {
+    background-size: cover;
     height: 100%;
     padding: 0;
   }
