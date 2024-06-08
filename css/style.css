@@ -144,7 +144,7 @@ section {
 
 body {
   /* background: linear-gradient(45deg, #000000 40%, #d1d1d1); */
-  background-image: url(/img/Background.jpg);
+  background-image: url(/img/Background.webp);
 
   /* background-color: #4f4f4f; */
 }
@@ -243,7 +243,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background-image: url(/img/rollo-sushi-philadelphia-fresco-servido-placa-negra.jpg);
+  background-image: url(/img/rollo-sushi-philadelphia-fresco-servido-placa-negra.webp);
   background-repeat: no-repeat;
   background-size: 100%;
   height: 100%;
@@ -368,7 +368,7 @@ body {
 
 
 .tablas-gold-premium {
-  background-image: url(/img/Definidos/tablas-gold-p.jpg);
+  background-image: url(/img/Definidos/tablas-gold-p.webp);
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 1rem;
@@ -378,7 +378,7 @@ body {
 }
 
 .tablas-premium {
-  background-image: url(/img/Definidos/premium.jpg);
+  background-image: url(/img/Definidos/premium.webp);
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 1rem;
@@ -388,7 +388,7 @@ body {
 }
 
 .tablas-ookini {
-  background-image: url(/img/Definidos/tablas-ookini.jpg);
+  background-image: url(/img/Definidos/tablas-ookini.webp);
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 1rem;
@@ -397,7 +397,7 @@ body {
 }
 
 .roll-furay-tempura {
-  background-image: url(/img/Definidos/tempura.jpg);
+  background-image: url(/img/Definidos/tempura.webp);
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 1rem;
@@ -406,7 +406,7 @@ body {
 }
 
 .sake-roll {
-  background-image: url(/img/Definidos/sake.jpg);
+  background-image: url(/img/Definidos/sake.webp);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 1rem;
@@ -415,7 +415,7 @@ body {
 }
 
 .roll-de-carta {
-  background-image: url(/img/Definidos/roll-carta.jpg);
+  background-image: url(/img/Definidos/roll-carta.webp);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 1rem;
@@ -424,7 +424,7 @@ body {
 }
 
 .hosomaki {
-  background-image: url(/img/Definidos/hosomaki.jpg);
+  background-image: url(/img/Definidos/hosomaki.webp);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 1rem;
@@ -433,7 +433,7 @@ body {
 }
 
 .no-rice {
-  background-image: url(/img/Definidos/norice.jpg);
+  background-image: url(/img/Definidos/norice.webp);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 1rem;
@@ -442,7 +442,7 @@ body {
 }
 
 .chesse-roll {
-  background-image: url(/img/Definidos/chesse.jpg);
+  background-image: url(/img/Definidos/chesse.webp);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 1rem;
@@ -451,7 +451,7 @@ body {
 }
 
 .avocado-roll {
-  background-image: url(/img/Definidos/avocado.jpg);
+  background-image: url(/img/Definidos/avocado.webp);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 1rem;
@@ -460,7 +460,7 @@ body {
 }
 
 .california-roll {
-  background-image: url(/img/Definidos/california.jpg);
+  background-image: url(/img/Definidos/california.webp);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 1rem;
@@ -469,7 +469,7 @@ body {
 }
 
 .makis-gold-premium {
-  background-image: url(/img/Definidos/makis.jpg);
+  background-image: url(/img/Definidos/makis.webp);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 0.8rem;
@@ -479,7 +479,7 @@ body {
 }
 
 .makis-gold-selection {
-  background-image: url(/img/Definidos/piqueos.jpg);
+  background-image: url(/img/Definidos/piqueos.webp);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 0.8rem;
@@ -489,7 +489,7 @@ body {
 }
 
 .handrolls {
-  background-image: url(/img/Definidos/handrolls.jpg);
+  background-image: url(/img/Definidos/handrolls.webp);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 1rem;
@@ -499,7 +499,7 @@ body {
 }
 
 .piqueos {
-  background-image: url(/img/Definidos/piqueos.jpg);
+  background-image: url(/img/Definidos/piqueos.webp);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 1rem;
@@ -508,7 +508,7 @@ body {
 }
 
 .gohan {
-  background-image: url(/img/Definidos/gohan.jpg);
+  background-image: url(/img/Definidos/gohan.webp);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 1rem;
@@ -517,7 +517,7 @@ body {
 }
 
 .canasta {
-  background-image: url(/img/Definidos/canasta-papas.jpg);
+  background-image: url(/img/Definidos/canasta-papas.webp);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 1rem;
@@ -526,9 +526,8 @@ body {
 }
 
 
-
 .sushiburguers {
-  background-image: url(/img/Definidos/sushiburguer.jpg);
+  background-image: url(/img/Definidos/sushiburguer.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -538,7 +537,7 @@ body {
 }
 
 .hamburguesas {
-  background-image: url(/img/Definidos/burguer.jpg);
+  background-image: url(/img/Definidos/burguer.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -555,7 +554,7 @@ body {
 }
 
 .cockteles-clasicos {
-  background-image: url(/img/tragos/Gin-ampliado.jpg);
+  background-image: url(/img/tragos/Gin-ampliado.webp);
   background-position: center;
   font-size: 1rem;
   margin: 5vw 0;
@@ -563,7 +562,7 @@ body {
 }
 
 .energy-drinks {
-  background-image: url(/img/tragos/bartender-ampliado.jpg);
+  background-image: url(/img/tragos/bartender-ampliado.webp);
   background-size: cover;
   font-size: 1rem;
   margin: 5vw 0;
@@ -571,7 +570,7 @@ body {
 }
 
 .mojitos {
-  background-image: url(/img/tragos/mojito-ampliado.jpg);
+  background-image: url(/img/tragos/mojito-ampliado.webp);
   background-size: cover;
   font-size: 1rem;
   margin: 5vw 0;
@@ -579,7 +578,7 @@ body {
 }
 
 .tragos-espumante {
-  background-image: url(/img/tragos/Naranja-ampliado.jpg);
+  background-image: url(/img/tragos/Naranja-ampliado.webp);
   background-size: cover;
   font-size: 1rem;
   margin: 5vw 0;
@@ -587,7 +586,7 @@ body {
 }
 
 .pisco {
-  background-image: url(/img/tragos/pisco-ampliado.jpg);
+  background-image: url(/img/tragos/pisco-ampliado.webp);
   background-size: cover;
   font-size: 1rem;
   margin: 5vw 0;
@@ -595,7 +594,7 @@ body {
 }
 
 .ron {
-  background-image: url(/img/tragos/caipiriña-ampliado.jpg);
+  background-image: url(/img/tragos/caipiriña-ampliado.webp);
   background-size: cover;
   background-position: center;
   font-size: 1rem;
@@ -604,7 +603,7 @@ body {
 }
 
 .tequila {
-  background-image: url(/img/tragos/tequila-ampliado.jpg);
+  background-image: url(/img/tragos/tequila-ampliado.webp);
   background-size: cover;
   background-position: center;
   font-size: 1rem;
@@ -613,7 +612,7 @@ body {
 }
 
 .gin {
-  background-image: url(/img/tragos/Spritz-ampliado.jpg);
+  background-image: url(/img/tragos/Spritz-ampliado.webp);
   background-size: cover;
   background-position: center;
   font-size: 1rem;
@@ -622,7 +621,7 @@ body {
 }
 
 .vodka {
-  background-image: url(/img/tragos/caipiriña-ampliado.jpg);
+  background-image: url(/img/tragos/caipiriña-ampliado.webp);
   background-size: cover;
   background-position: center;
   font-size: 1rem;
@@ -631,7 +630,7 @@ body {
 }
 
 .whisky-bourbon {
-  background-image: url(/img/tragos/whisky-ampliado.jpg);
+  background-image: url(/img/tragos/whisky-ampliado.webp);
   background-size: cover;
   font-size: 1rem;
   margin: 5vw 0;
@@ -639,7 +638,7 @@ body {
 }
 
 .vinos {
-  background-image: url(/img/tragos/vinos.jpg);
+  background-image: url(/img/tragos/vinos.webp);
   background-size: cover;
   font-size: 1rem;
   margin: 5vw 0;
@@ -647,7 +646,7 @@ body {
 }
 
 .shops {
-  background-image: url(/img/tragos/schops.jpg);
+  background-image: url(/img/tragos/schops.webp);
   background-size: cover;
   font-size: 1rem;
   margin: 5vw 0;
@@ -722,7 +721,7 @@ body {
   .landing-page {
     display: flex;
     flex-direction: column;
-    background-image: url(/img/img-media-query/background.jpg);
+    background-image: url(/img/img-media-query/background.webp);
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -809,14 +808,14 @@ body {
   /* carta */
 
   .tablas-gold-premium {
-    background-image: url(/img/img-media-query/tablas-gold-p.jpg);
+    background-image: url(/img/img-media-query/tablas-gold-p.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .tablas-premium {
-    background-image: url(/img/img-media-query/premium.png);
+    background-image: url(/img/img-media-query/premium.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -824,7 +823,7 @@ body {
   }
 
   .tablas-ookini {
-    background-image: url(/img/img-media-query/tablas-ookini.jpg);
+    background-image: url(/img/img-media-query/tablas-ookini.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -832,62 +831,62 @@ body {
   }
 
   .roll-furay-tempura {
-    background-image: url(/img/img-media-query/tempura.jpg);
+    background-image: url(/img/img-media-query/tempura.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .sake-roll {
-    background-image: url(/img/img-media-query/sake.jpg);
+    background-image: url(/img/img-media-query/sake.webp);
     height: 100%;
     padding: 0;
   }
 
   .roll-de-carta {
-    background-image: url(/img/img-media-query/roll-carta.jpg);
+    background-image: url(/img/img-media-query/roll-carta.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .hosomaki {
-    background-image: url(/img/img-media-query/hosomaki.jpg);
+    background-image: url(/img/img-media-query/hosomaki.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .no-rice {
-    background-image: url(/img/img-media-query/norice.jpg);
+    background-image: url(/img/img-media-query/norice.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .chesse-roll {
-    background-image: url(/img/img-media-query/chesse.jpg);
+    background-image: url(/img/img-media-query/chesse.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .avocado-roll {
-    background-image: url(/img/img-media-query/avocado.jpg);
+    background-image: url(/img/img-media-query/avocado.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .california-roll {
-    background-image: url(/img/img-media-query/california.jpg);
+    background-image: url(/img/img-media-query/california.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .makis-gold-premium {
-    background-image: url(/img/img-media-query/makis.jpg);
+    background-image: url(/img/img-media-query/makis.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -895,7 +894,7 @@ body {
   }
 
   .makis-gold-selection {
-    background-image: url(/img/img-media-query/piqueos.jpg);
+    background-image: url(/img/img-media-query/piqueos.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -903,7 +902,7 @@ body {
   }
 
   .handrolls {
-    background-image: url(/img/img-media-query/handrolls.jpg);
+    background-image: url(/img/img-media-query/handrolls.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -911,7 +910,7 @@ body {
   }
 
   .piqueos {
-    background-image: url(/img/img-media-query/piqueos.jpg);
+    background-image: url(/img/img-media-query/piqueos.webp);
     background-size: cover;
     background-size: cover;
     height: 100%;
@@ -919,14 +918,14 @@ body {
   }
 
   .gohan {
-    background-image: url(/img/img-media-query/gohan.jpg);
+    background-image: url(/img/img-media-query/gohan.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .sushiburguers {
-    background-image: url(/img/img-media-query/sushiburger.jpg);
+    background-image: url(/img/img-media-query/sushiburger.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
@@ -939,7 +938,7 @@ body {
   }
 
   .hamburguesas {
-    background-image: url(/img/img-media-query/hamburguesa.jpg);
+    background-image: url(/img/img-media-query/hamburguesa.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
@@ -1053,7 +1052,7 @@ body {
   .landing-page {
     display: flex;
     flex-direction: column;
-    background-image: url(/img/img-media-query/background.jpg);
+    background-image: url(/img/img-media-query/background.webp);
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -1139,14 +1138,14 @@ body {
   /* carta */
 
   .tablas-gold-premium {
-    background-image: url(/img/img-media-query/tablas-gold-p.jpg);
+    background-image: url(/img/img-media-query/tablas-gold-p.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .tablas-premium {
-    background-image: url(/img/img-media-query/premium.png);
+    background-image: url(/img/img-media-query/premium.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1154,7 +1153,7 @@ body {
   }
 
   .tablas-ookini {
-    background-image: url(/img/img-media-query/tablas-ookini.jpg);
+    background-image: url(/img/img-media-query/tablas-ookini.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1162,62 +1161,62 @@ body {
   }
 
   .roll-furay-tempura {
-    background-image: url(/img/img-media-query/tempura.jpg);
+    background-image: url(/img/img-media-query/tempura.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .sake-roll {
-    background-image: url(/img/img-media-query/sake.jpg);
+    background-image: url(/img/img-media-query/sake.webp);
     height: 100%;
     padding: 0;
   }
 
   .roll-de-carta {
-    background-image: url(/img/img-media-query/roll-carta.jpg);
+    background-image: url(/img/img-media-query/roll-carta.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .hosomaki {
-    background-image: url(/img/img-media-query/hosomaki.jpg);
+    background-image: url(/img/img-media-query/hosomaki.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .no-rice {
-    background-image: url(/img/img-media-query/norice.jpg);
+    background-image: url(/img/img-media-query/norice.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .chesse-roll {
-    background-image: url(/img/img-media-query/chesse.jpg);
+    background-image: url(/img/img-media-query/chesse.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .avocado-roll {
-    background-image: url(/img/img-media-query/avocado.jpg);
+    background-image: url(/img/img-media-query/avocado.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .california-roll {
-    background-image: url(/img/img-media-query/california.jpg);
+    background-image: url(/img/img-media-query/california.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .makis-gold-premium {
-    background-image: url(/img/img-media-query/makis.jpg);
+    background-image: url(/img/img-media-query/makis.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1225,7 +1224,7 @@ body {
   }
 
   .makis-gold-selection {
-    background-image: url(/img/img-media-query/piqueos.jpg);
+    background-image: url(/img/img-media-query/piqueos.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1233,7 +1232,7 @@ body {
   }
 
   .handrolls {
-    background-image: url(/img/img-media-query/handrolls.jpg);
+    background-image: url(/img/img-media-query/handrolls.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1241,7 +1240,7 @@ body {
   }
 
   .piqueos {
-    background-image: url(/img/img-media-query/piqueos.jpg);
+    background-image: url(/img/img-media-query/piqueos.webp);
     background-size: cover;
     background-size: cover;
     height: 100%;
@@ -1249,7 +1248,7 @@ body {
   }
 
   .gohan {
-    background-image: url(/img/img-media-query/gohan.jpg);
+    background-image: url(/img/img-media-query/gohan.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
@@ -1262,14 +1261,14 @@ body {
   }
 
   .sushiburguers {
-    background-image: url(/img/img-media-query/sushiburger.jpg);
+    background-image: url(/img/img-media-query/sushiburger.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .hamburguesas {
-    background-image: url(/img/img-media-query/hamburguesa.jpg);
+    background-image: url(/img/img-media-query/hamburguesa.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
@@ -1367,7 +1366,7 @@ body {
   .landing-page {
     display: flex;
     flex-direction: column;
-    background-image: url(/img/img-media-query/background.jpg);
+    background-image: url(/img/img-media-query/background.webp);
   }
 
   .logo-landing {
@@ -1440,112 +1439,112 @@ body {
   }
 
   .tablas-gold-premium {
-    background-image: url(/img/img-media-query/tablas-gold-p.jpg);
+    background-image: url(/img/img-media-query/tablas-gold-p.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .tablas-premium {
-    background-image: url(/img/img-media-query/convertido/premium.jpg);
+    background-image: url(/img/img-media-query/convertido/premium.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .tablas-ookini {
-    background-image: url(/img/img-media-query/tablas-ookini.jpg);
+    background-image: url(/img/img-media-query/tablas-ookini.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .roll-furay-tempura {
-    background-image: url(/img/img-media-query/tempura.jpg);
+    background-image: url(/img/img-media-query/tempura.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .sake-roll {
-    background-image: url(/img/img-media-query/sake.jpg);
+    background-image: url(/img/img-media-query/sake.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .roll-de-carta {
-    background-image: url(/img/img-media-query/roll-carta.jpg);
+    background-image: url(/img/img-media-query/roll-carta.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .hosomaki {
-    background-image: url(/img/img-media-query/hosomaki.jpg);
+    background-image: url(/img/img-media-query/hosomaki.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .no-rice {
-    background-image: url(/img/img-media-query/norice.jpg);
+    background-image: url(/img/img-media-query/norice.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .chesse-roll {
-    background-image: url(/img/img-media-query/chesse.jpg);
+    background-image: url(/img/img-media-query/chesse.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .avocado-roll {
-    background-image: url(/img/img-media-query/avocado.jpg);
+    background-image: url(/img/img-media-query/avocado.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .california-roll {
-    background-image: url(/img/img-media-query/california.jpg);
+    background-image: url(/img/img-media-query/california.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .makis-gold-premium {
-    background-image: url(/img/img-media-query/makis.jpg);
+    background-image: url(/img/img-media-query/makis.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .makis-gold-selection {
-    background-image: url(/img/img-media-query/piqueos.jpg);
+    background-image: url(/img/img-media-query/piqueos.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .handrolls {
-    background-image: url(/img/img-media-query/handrolls.jpg);
+    background-image: url(/img/img-media-query/handrolls.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .piqueos {
-    background-image: url(/img/img-media-query/piqueos.jpg);
+    background-image: url(/img/img-media-query/piqueos.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .gohan {
-    background-image: url(/img/img-media-query/gohan.jpg);
+    background-image: url(/img/img-media-query/gohan.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
@@ -1558,14 +1557,14 @@ body {
   }
 
   .sushiburguers {
-    background-image: url(/img/img-media-query/sushiburger.jpg);
+    background-image: url(/img/img-media-query/sushiburger.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
   }
 
   .hamburguesas {
-    background-image: url(/img/img-media-query/hamburguesa.jpg);
+    background-image: url(/img/img-media-query/hamburguesa.webp);
     background-size: cover;
     height: 100%;
     padding: 0;
@@ -1663,7 +1662,7 @@ body {
   .landing-page {
     display: flex;
     flex-direction: column;
-    background-image: url(/img/img-media-query/background.jpg);
+    background-image: url(/img/img-media-query/background.webp);
   }
 
   .logo-landing {
@@ -1730,7 +1729,7 @@ body {
   }
 
   .tablas-gold-premium {
-    background-image: url(/img/img-media-query/tablas-gold-p.jpg);
+    background-image: url(/img/img-media-query/tablas-gold-p.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1738,7 +1737,7 @@ body {
   }
 
   .tablas-premium {
-    background-image: url(/img/img-media-query/premium.png);
+    background-image: url(/img/img-media-query/premium.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1746,7 +1745,7 @@ body {
   }
 
   .tablas-ookini {
-    background-image: url(/img/img-media-query/tablas-ookini.jpg);
+    background-image: url(/img/img-media-query/tablas-ookini.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1754,7 +1753,7 @@ body {
   }
 
   .roll-furay-tempura {
-    background-image: url(/img/img-media-query/tempura.jpg);
+    background-image: url(/img/img-media-query/tempura.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1762,7 +1761,7 @@ body {
   }
 
   .sake-roll {
-    background-image: url(/img/img-media-query/sake.jpg);
+    background-image: url(/img/img-media-query/sake.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1770,7 +1769,7 @@ body {
   }
 
   .roll-de-carta {
-    background-image: url(/img/img-media-query/roll-carta.jpg);
+    background-image: url(/img/img-media-query/roll-carta.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1778,7 +1777,7 @@ body {
   }
 
   .hosomaki {
-    background-image: url(/img/img-media-query/hosomaki.jpg);
+    background-image: url(/img/img-media-query/hosomaki.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1786,7 +1785,7 @@ body {
   }
 
   .no-rice {
-    background-image: url(/img/img-media-query/norice.jpg);
+    background-image: url(/img/img-media-query/norice.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1794,7 +1793,7 @@ body {
   }
 
   .chesse-roll {
-    background-image: url(/img/img-media-query/chesse.jpg);
+    background-image: url(/img/img-media-query/chesse.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1802,7 +1801,7 @@ body {
   }
 
   .avocado-roll {
-    background-image: url(/img/img-media-query/avocado.jpg);
+    background-image: url(/img/img-media-query/avocado.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1810,7 +1809,7 @@ body {
   }
 
   .california-roll {
-    background-image: url(/img/img-media-query/california.jpg);
+    background-image: url(/img/img-media-query/california.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1818,7 +1817,7 @@ body {
   }
 
   .makis-gold-premium {
-    background-image: url(/img/img-media-query/makis.jpg);
+    background-image: url(/img/img-media-query/makis.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1826,7 +1825,7 @@ body {
   }
 
   .makis-gold-selection {
-    background-image: url(/img/img-media-query/piqueos.jpg);
+    background-image: url(/img/img-media-query/piqueos.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1834,7 +1833,7 @@ body {
   }
 
   .handrolls {
-    background-image: url(/img/img-media-query/handrolls.jpg);
+    background-image: url(/img/img-media-query/handrolls.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1842,7 +1841,7 @@ body {
   }
 
   .piqueos {
-    background-image: url(/img/img-media-query/piqueos.jpg);
+    background-image: url(/img/img-media-query/piqueos.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1850,7 +1849,7 @@ body {
   }
 
   .gohan {
-    background-image: url(/img/img-media-query/gohan.jpg);
+    background-image: url(/img/img-media-query/gohan.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1864,7 +1863,7 @@ body {
   }
 
   .sushiburguers {
-    background-image: url(/img/img-media-query/sushiburger.jpg);
+    background-image: url(/img/img-media-query/sushiburger.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -1872,7 +1871,7 @@ body {
   }
 
   .hamburguesas {
-    background-image: url(/img/img-media-query/hamburguesa.jpg);
+    background-image: url(/img/img-media-query/hamburguesa.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
