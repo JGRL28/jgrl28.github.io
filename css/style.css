@@ -338,6 +338,13 @@ button {
   align-self: center;
 }
 
+.navegador-label {
+  display: flex;
+  flex-direction: column;
+  padding: 5vh 0;
+  align-self: center;
+}
+
 #navegador {
   padding: 1vh 0;
 }
