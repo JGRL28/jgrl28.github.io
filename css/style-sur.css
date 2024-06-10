@@ -119,6 +119,7 @@ Fuentes para usar
   src: url(/fonts/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf);
 }
 
+/* Reseteo de padding - margin text.decoracion - list-style */
 
 * {
   margin: 0;
@@ -234,61 +235,14 @@ body {
 
 /* Landing Page */
 
-/* slider */
-
-.container {
-  display: flex;
-
-  align-items: center;
-}
-
-.slider {
-  position: relative;
-  width: 400px;
-  height: 200px;
-  overflow: hidden;
-}
-
-.slide {
-  display: none;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  background: transparent;
-  text-align: center;
-  font-size: 1.5em;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.controls {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 2rem;
-}
-
-button {
-  margin: 5px;
-  padding: 10px;
-  font-size: 1em;
-  cursor: pointer;
-  background-color: transparent;
-  border: 1px solid #d1d1d1;
-  border-radius: 10px;
-}
-
-/* ------- */
-
 
 .landing-page {
   margin-top: 7rem;
   /* margin-bottom: 7rem;
   padding: 2rem; */
-  display: grid;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   background-image: url(/img/rollo-sushi-philadelphia-fresco-servido-placa-negra.webp);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -403,14 +357,14 @@ button {
   padding: 5vh;
 }
 
-/* .tablas-tradicionales {
+.tablas-tradicionales {
   background-image: url(/img/Definidos/tempura.webp);
   background-repeat: no-repeat;
   background-size: 100%;
   font-size: 0.8rem;
   margin: 5vw 0;
   padding: 5vh 10vw;
-} */
+}
 
 
 .tablas-gold-premium {
@@ -443,7 +397,7 @@ button {
 }
 
 .roll-furay-tempura {
-  background-image: url(/img/Definidos/tempura.webp);
+  background-image: url(/img/Definidos/tempura.webppppp);
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 1rem;
@@ -595,7 +549,7 @@ button {
 
 /* Tragos */
 
-.tragos {
+/* .tragos {
   margin: 5vw 0;
 }
 
@@ -697,7 +651,7 @@ button {
   font-size: 1rem;
   margin: 5vw 0;
   padding: 5vh 10vw;
-}
+} */
 
 /* footer */
 
@@ -739,15 +693,6 @@ button {
     width: 6rem;
     padding: 0.5rem 1rem;
     line-height: 4rem;
-  }
-
-  .controls {
-    display: none;
-  }
-
-  .slider {
-    width: 300px;
-    height: 200px;
   }
 
   .logo-landing {
@@ -861,6 +806,13 @@ button {
 
 
   /* carta */
+
+  .tablas-tradicionales {
+    background-image: url(/img/img-media-query/tempura.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
 
   .tablas-gold-premium {
     background-image: url(/img/img-media-query/tablas-gold-p.webp);
@@ -1081,10 +1033,6 @@ button {
     line-height: 4rem;
   }
 
-  .controls {
-    display: none;
-  }
-
   .logo-landing {
     height: 7rem;
     background-color: rgba(0, 0, 0, 0.8);
@@ -1195,6 +1143,13 @@ button {
   }
 
   /* carta */
+
+  .tablas-tradicionales {
+    background-image: url(/img/img-media-query/tempura.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
 
   .tablas-gold-premium {
     background-image: url(/img/img-media-query/tablas-gold-p.webp);
@@ -1410,13 +1365,9 @@ button {
   }
 
   .logo {
-    width: 5rem;
+    width: 9rem;
     padding: 0.5rem 1rem;
     line-height: 4rem;
-  }
-
-  .controls {
-    display: none;
   }
 
   .landing-p {
@@ -1430,12 +1381,10 @@ button {
     display: flex;
     flex-direction: column;
     background-image: url(/img/img-media-query/background.webp);
-    align-items: center;
   }
 
   .logo-landing {
-    height: auto;
-    width: 10rem;
+    height: 6rem;
   }
 
   .landing-p {
@@ -1501,6 +1450,13 @@ button {
 
   .price {
     font-size: 1rem
+  }
+
+  .tablas-tradicionales {
+    background-image: url(/img/img-media-query/tempura.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
   }
 
   .tablas-gold-premium {
@@ -1717,10 +1673,6 @@ button {
     line-height: 4rem;
   }
 
-  .controls {
-    display: none;
-  }
-
   .landing-p {
     font-size: 1.5rem;
     background-color: rgba(0, 0, 0, 0.6);
@@ -1732,12 +1684,10 @@ button {
     display: flex;
     flex-direction: column;
     background-image: url(/img/img-media-query/background.webp);
-    align-items: center;
   }
 
   .logo-landing {
-    height: auto;
-    width: 15rem;
+    height: 6rem;
   }
 
   .landing-p {
@@ -1797,6 +1747,13 @@ button {
 
   .price {
     font-size: 1rem
+  }
+
+  .tablas-tradicionales {
+    background-image: url(/img/img-media-query/tempura.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
   }
 
   .tablas-gold-premium {
