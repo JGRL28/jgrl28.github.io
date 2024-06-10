@@ -1,0 +1,2020 @@
+/* Colores a usar en Ookini
+                            Amarillos
+#FDFDE9     50
+#FDFBC4     100
+#FBF38D     200
+#F9E54B     300
+#F5D31A     400
+#F1C40F     500
+#c59009     600
+#9d670b     700
+#825211     800
+#6f4314     900
+#412307     950
+                            Rojos
+#fef2f3     50
+#fee2e3     100
+#fecacc     200
+#fca5a9     300
+#f77278     400
+#ee454c     500
+#db272f     600
+#c01e25     color-logo 700
+#981c21     800
+#7f1d21     900
+#450a0d     950
+
+                            Negros-Grises 
+#f6f6f6     50
+#e7e7e7     100
+#d1d1d1     200
+#b0b0b0     300
+#888888     400
+#6d6d6d     500
+#5d5d5d     600
+#4f4f4f     700
+#454545     800
+#3d3d3d     900
+#000000     950
+
+
+Fuentes para usar
+*/
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 400 to 700 */
+
+/* .dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 200 to 800 */
+
+/* .dosis-<uniquifier> {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+
+/* root {} */
+
+
+
+@font-face {
+  font-family: face;
+  src: url(/fonts/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #f6f6f6;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Dosis', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+article {
+  scroll-margin-top: 6rem;
+}
+
+section {
+  scroll-margin-top: 6rem;
+}
+
+body {
+  /* background: linear-gradient(45deg, #000000 40%, #d1d1d1); */
+  background-image: url(/img/Background.webp);
+
+  /* background-color: #4f4f4f; */
+}
+
+/*  Header */
+.header {
+  background-color: #4f4f4f;
+  height: 7rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.logo-class {
+  width: 7rem;
+  padding: 1rem 1.5rem;
+  line-height: 7rem;
+}
+
+.nav-menu {
+  display: flex;
+  margin-right: 1.5rem;
+  list-style: none;
+}
+
+.nav-menu-item {
+  font-size: 1.1rem;
+  margin: 0 1rem;
+  line-height: 7rem;
+  width: max-content;
+
+}
+
+.nav-menu-link {
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link_active {
+  background-color: dimgray;
+  transition: 0.5s;
+}
+
+.nav-toggle {
+  color: black;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  padding: 0 1.5rem;
+  display: none;
+  cursor: pointer;
+}
+
+/* Botones WS - Inicio */
+
+.btn-ws {
+  position: fixed;
+  left: 1vw;
+  bottom: 1vh;
+}
+
+.logo-ws {
+  height: 2.5rem;
+}
+
+.btn-inicio {
+  position: fixed;
+  right: 1vw;
+  bottom: 1vh;
+  border: 1px solid white;
+  padding: 0.5vw;
+  border-radius: 5px;
+  background-color: #db272f;
+}
+
+/* Landing Page */
+
+/* slider */
+
+.container {
+  display: flex;
+
+  align-items: center;
+}
+
+.slider {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+}
+
+/* ------- */
+
+
+.landing-page {
+  margin-top: 7rem;
+  /* margin-bottom: 7rem;
+  padding: 2rem; */
+  display: grid;
+  justify-items: center;
+  background-image: url(/img/rollo-sushi-philadelphia-fresco-servido-placa-negra.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.img-p-landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2vh 0;
+  margin-right: 50vw;
+}
+
+.landing-p {
+  /* padding: 0 10vw; */
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  margin: 2vw 5vh 2vw 5vh;
+}
+
+.logo-landing {
+  height: 15rem;
+  width: auto;
+  margin: 5vh 10vw;
+}
+
+.btn-landing {
+  margin: 2vh 0;
+  padding-left: 45.5vw;
+}
+
+.btn-landing-ws {
+  border: 1px solid white;
+  padding: 0.7vw;
+  border-radius: 5px;
+  background-color: #db272f;
+  font-size: 1.5rem;
+}
+
+.selector {
+  display: flex;
+  flex-direction: column;
+  padding: 5vh 0;
+  align-self: center;
+}
+
+#navegador {
+  padding: 1vh 0;
+}
+
+#navegadorSelect {
+  padding: 1.5vh;
+  background-color: #4f4f4f;
+}
+
+
+
+/* Carta */
+
+.carta {
+  margin: 5vw 0;
+}
+
+/* Tablas  */
+.title-article {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-content: center;
+  color: #d1d1d1;
+  font-size: 3rem;
+  font-family: "Dancing Script", cursive;
+}
+
+.title-product {
+  font-family: "Dancing Script", cursive;
+  color: #F1C40F;
+  font-size: 1.5rem;
+}
+
+.subtitle-product {
+  color: #ee454c;
+}
+
+.price {
+  font-family: "Ubuntu", sans-serif;
+  font-style: italic;
+  font-size: 1.5rem;
+
+}
+
+
+
+.background {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  gap: 0.5rem;
+  padding: 5vh;
+}
+
+.background-large {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  gap: 0.5rem;
+  padding: 5vh;
+}
+
+/* .tablas-tradicionales {
+  background-image: url(/img/Definidos/tempura.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 0.8rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+} */
+
+
+.tablas-gold-premium {
+  background-image: url(/img/Definidos/tablas-gold-p.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+  text-wrap: balance;
+}
+
+.tablas-premium {
+  background-image: url(/img/Definidos/premium.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+  text-wrap: balance;
+}
+
+.tablas-ookini {
+  background-image: url(/img/Definidos/tablas-ookini.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.roll-furay-tempura {
+  background-image: url(/img/Definidos/tempura.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.sake-roll {
+  background-image: url(/img/Definidos/sake.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.roll-de-carta {
+  background-image: url(/img/Definidos/roll-carta.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.hosomaki {
+  background-image: url(/img/Definidos/hosomaki.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.no-rice {
+  background-image: url(/img/Definidos/norice.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.chesse-roll {
+  background-image: url(/img/Definidos/chesse.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.avocado-roll {
+  background-image: url(/img/Definidos/avocado.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.california-roll {
+  background-image: url(/img/Definidos/california.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.makis-gold-premium {
+  background-image: url(/img/Definidos/makis.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 0.8rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+  text-wrap: balance;
+}
+
+.makis-gold-selection {
+  background-image: url(/img/Definidos/piqueos.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 0.8rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+  text-wrap: balance;
+}
+
+.handrolls {
+  background-image: url(/img/Definidos/handrolls.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+  height: 100%;
+}
+
+.piqueos {
+  background-image: url(/img/Definidos/piqueos.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.gohan {
+  background-image: url(/img/Definidos/gohan.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.canasta {
+  background-image: url(/img/Definidos/canasta-papas.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+
+.sushiburguers {
+  background-image: url(/img/Definidos/sushiburguer.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.hamburguesas {
+  background-image: url(/img/Definidos/burguer.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+
+/* Tragos */
+
+.tragos {
+  margin: 5vw 0;
+}
+
+.cockteles-clasicos {
+  background-image: url(/img/tragos/Gin-ampliado.webp);
+  background-position: center;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.energy-drinks {
+  background-image: url(/img/tragos/bartender-ampliado.webp);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.mojitos {
+  background-image: url(/img/tragos/mojito-ampliado.webp);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.tragos-espumante {
+  background-image: url(/img/tragos/Naranja-ampliado.webp);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.pisco {
+  background-image: url(/img/tragos/pisco-ampliado.webp);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.ron {
+  background-image: url(/img/tragos/caipiriña-ampliado.webp);
+  background-size: cover;
+  background-position: center;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.tequila {
+  background-image: url(/img/tragos/tequila-ampliado.webp);
+  background-size: cover;
+  background-position: center;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.gin {
+  background-image: url(/img/tragos/Spritz-ampliado.webp);
+  background-size: cover;
+  background-position: center;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.vodka {
+  background-image: url(/img/tragos/caipiriña-ampliado.webp);
+  background-size: cover;
+  background-position: center;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.whisky-bourbon {
+  background-image: url(/img/tragos/whisky-ampliado.webp);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.vinos {
+  background-image: url(/img/tragos/vinos.webp);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+.shops {
+  background-image: url(/img/tragos/schops.webp);
+  background-size: cover;
+  font-size: 1rem;
+  margin: 5vw 0;
+  padding: 5vh 10vw;
+}
+
+/* footer */
+
+.footer {
+  background-color: #4f4f4f;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy {
+  margin-right: 4vw;
+}
+
+.rrss {
+  display: flex;
+}
+
+.insta {
+  padding-right: 4vw;
+}
+
+.icono {
+  padding-right: 1vw;
+}
+
+
+
+
+/* Media Query's */
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .header {
+    height: 7rem;
+  }
+
+  .logo {
+    width: 6rem;
+    padding: 0.5rem 1rem;
+    line-height: 4rem;
+  }
+
+  .controls {
+    display: none;
+  }
+
+  .slider {
+    width: 300px;
+    height: 200px;
+  }
+
+  .logo-landing {
+    height: 7rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    border-radius: 5%;
+  }
+
+  .btn-landing-ws {
+    display: none;
+  }
+
+
+  .landing-p {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1.5rem;
+    font-size: medium;
+    border-radius: 5%;
+  }
+
+  .img-p-landing {
+    margin-right: 0;
+  }
+
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/img-media-query/background.webp);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    margin: 0;
+    background-color: #4f4f4f;
+    position: fixed;
+    left: 0;
+    top: 7rem;
+    width: 100%;
+    align-items: center;
+    padding: 0.5rem 0;
+
+    height: calc(100% - 4rem);
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s;
+  }
+
+  .nav-menu-item {
+    line-height: 5rem;
+  }
+
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    background: none;
+    color: darkgrey;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-menu_visible {
+    left: 0;
+  }
+
+  .background {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .background-large {
+    display: grid;
+    gap: 0.5rem;
+    font-size: 0.5rem;
+  }
+
+  .title-section {
+    font-size: 0.8rem;
+    align-items: center;
+  }
+
+  .title-article {
+    font-size: 1.7rem;
+  }
+
+  .title-product {
+    font-size: 1.5rem;
+  }
+
+  .price {
+    font-size: 0.8rem
+  }
+
+  .container {
+    grid-template-columns: 100%;
+    font-size: 0.8rem;
+    padding: 0;
+
+  }
+
+  .description-product {
+    font-size: 1rem;
+  }
+
+
+  /* carta */
+
+  .tablas-gold-premium {
+    background-image: url(/img/img-media-query/tablas-gold-p.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .tablas-premium {
+    background-image: url(/img/img-media-query/premium.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .tablas-ookini {
+    background-image: url(/img/img-media-query/tablas-ookini.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .roll-furay-tempura {
+    background-image: url(/img/img-media-query/tempura.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .sake-roll {
+    background-image: url(/img/img-media-query/sake.webp);
+    height: 100%;
+    padding: 0;
+  }
+
+  .roll-de-carta {
+    background-image: url(/img/img-media-query/roll-carta.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .hosomaki {
+    background-image: url(/img/img-media-query/hosomaki.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .no-rice {
+    background-image: url(/img/img-media-query/norice.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .chesse-roll {
+    background-image: url(/img/img-media-query/chesse.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .avocado-roll {
+    background-image: url(/img/img-media-query/avocado.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .california-roll {
+    background-image: url(/img/img-media-query/california.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .makis-gold-premium {
+    background-image: url(/img/img-media-query/makis.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .makis-gold-selection {
+    background-image: url(/img/img-media-query/piqueos.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .handrolls {
+    background-image: url(/img/img-media-query/handrolls.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .piqueos {
+    background-image: url(/img/img-media-query/piqueos.webp);
+    background-size: cover;
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .gohan {
+    background-image: url(/img/img-media-query/gohan.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .sushiburguers {
+    background-image: url(/img/img-media-query/sushiburger.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .canasta {
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .hamburguesas {
+    background-image: url(/img/img-media-query/hamburguesa.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  /* tragos */
+  .cockteles-clasicos {
+    background-position: center;
+    padding: 0;
+  }
+
+  .energy-drinks {
+    background-position: center;
+    padding: 0;
+  }
+
+  .mojitos {
+    background-position: center;
+    padding: 0;
+  }
+
+  .tragos-espumante {
+    background-position: center;
+    padding: 0;
+  }
+
+  .pisco {
+    background-position: center;
+    padding: 0;
+  }
+
+  .ron {
+    background-position: center;
+    padding: 0;
+  }
+
+  .tequila {
+    background-position: center;
+    padding: 0;
+  }
+
+  .gin {
+    background-position: center;
+    padding: 0;
+  }
+
+  .vodka {
+    background-position: center;
+    padding: 0;
+  }
+
+  .whisky-bourbon {
+    background-position: center;
+    padding: 0;
+  }
+
+  .vinos {
+    background-position: right;
+    padding: 0;
+  }
+
+  .shops {
+    background-position: center;
+    padding: 0;
+  }
+
+  .copy {
+    padding-left: 4vw;
+  }
+
+  .rrss {
+    padding-right: 4vw;
+  }
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .header {
+    height: 7rem;
+  }
+
+  .logo {
+    width: 6rem;
+    padding: 0.5rem 1rem;
+    line-height: 4rem;
+  }
+
+  .controls {
+    display: none;
+  }
+
+  .logo-landing {
+    height: 7rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    border-radius: 5%;
+  }
+
+  .btn-landing-ws {
+    display: none;
+  }
+
+
+  .landing-p {
+    font-size: 0.9rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1.5rem;
+    border-radius: 5%;
+  }
+
+  .img-p-landing {
+    margin-right: 0;
+  }
+
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/img-media-query/background.webp);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    margin: 0;
+    background-color: #4f4f4f;
+    position: fixed;
+    left: 0;
+    top: 7rem;
+    width: 100%;
+    align-items: center;
+    padding: 0.5rem 0;
+
+    height: calc(100% - 4rem);
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s;
+  }
+
+  .nav-menu-item {
+    line-height: 5rem;
+  }
+
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    background: none;
+    color: darkgrey;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-menu_visible {
+    left: 0;
+  }
+
+  .background {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .background-large {
+    display: grid;
+    gap: 0.5rem;
+    font-size: 0.5rem;
+  }
+
+  .title-section {
+    font-size: 0.8rem;
+    align-items: center;
+  }
+
+  .title-article {
+    font-size: 1.7rem;
+  }
+
+  .title-product {
+    font-size: 1.5rem;
+  }
+
+  .price {
+    font-size: 0.8rem
+  }
+
+  .container {
+    grid-template-columns: 100%;
+    font-size: 0.8rem;
+    padding: 0;
+
+  }
+
+  .description-product {
+    font-size: 1rem;
+  }
+
+  /* carta */
+
+  .tablas-gold-premium {
+    background-image: url(/img/img-media-query/tablas-gold-p.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .tablas-premium {
+    background-image: url(/img/img-media-query/premium.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .tablas-ookini {
+    background-image: url(/img/img-media-query/tablas-ookini.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .roll-furay-tempura {
+    background-image: url(/img/img-media-query/tempura.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .sake-roll {
+    background-image: url(/img/img-media-query/sake.webp);
+    height: 100%;
+    padding: 0;
+  }
+
+  .roll-de-carta {
+    background-image: url(/img/img-media-query/roll-carta.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .hosomaki {
+    background-image: url(/img/img-media-query/hosomaki.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .no-rice {
+    background-image: url(/img/img-media-query/norice.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .chesse-roll {
+    background-image: url(/img/img-media-query/chesse.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .avocado-roll {
+    background-image: url(/img/img-media-query/avocado.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .california-roll {
+    background-image: url(/img/img-media-query/california.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .makis-gold-premium {
+    background-image: url(/img/img-media-query/makis.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .makis-gold-selection {
+    background-image: url(/img/img-media-query/piqueos.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .handrolls {
+    background-image: url(/img/img-media-query/handrolls.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .piqueos {
+    background-image: url(/img/img-media-query/piqueos.webp);
+    background-size: cover;
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .gohan {
+    background-image: url(/img/img-media-query/gohan.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .canasta {
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .sushiburguers {
+    background-image: url(/img/img-media-query/sushiburger.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .hamburguesas {
+    background-image: url(/img/img-media-query/hamburguesa.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  /* tragos */
+  .cockteles-clasicos {
+    background-position: center;
+    padding: 0;
+  }
+
+  .energy-drinks {
+    background-position: center;
+    padding: 0;
+  }
+
+  .mojitos {
+    background-position: center;
+    padding: 0;
+  }
+
+  .tragos-espumante {
+    background-position: center;
+    padding: 0;
+  }
+
+  .pisco {
+    background-position: center;
+    padding: 0;
+  }
+
+  .ron {
+    background-position: center;
+    padding: 0;
+  }
+
+  .tequila {
+    background-position: center;
+    padding: 0;
+  }
+
+  .gin {
+    background-position: center;
+    padding: 0;
+  }
+
+  .vodka {
+    background-position: center;
+    padding: 0;
+  }
+
+  .whisky-bourbon {
+    background-position: center;
+    padding: 0;
+  }
+
+  .vinos {
+    background-position: right;
+    padding: 0;
+  }
+
+  .shops {
+    background-position: center;
+    padding: 0;
+  }
+
+  .copy {
+    padding-left: 4vw;
+  }
+
+  .rrss {
+    padding-right: 4vw;
+  }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 860px) {
+  .header {
+    height: 7rem;
+  }
+
+  .logo {
+    width: 5rem;
+    padding: 0.5rem 1rem;
+    line-height: 4rem;
+  }
+
+  .controls {
+    display: none;
+  }
+
+  .landing-p {
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1.5rem;
+    border-radius: 25px;
+  }
+
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/img-media-query/background.webp);
+    align-items: center;
+  }
+
+  .logo-landing {
+    height: auto;
+    width: 10rem;
+  }
+
+  .landing-p {
+    font-size: 2rem;
+  }
+
+  .img-p-landing {
+    margin-right: 0;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    margin: 0;
+    background-color: darkgrey;
+    position: fixed;
+    left: 0;
+    top: 7rem;
+    width: 100%;
+    align-items: center;
+    padding: 0.5rem 0;
+
+    height: calc(100% - 4rem);
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s;
+  }
+
+  .nav-menu-item {
+    line-height: 5rem;
+  }
+
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    background: none;
+    color: darkgrey;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-menu_visible {
+    left: 0;
+  }
+
+  .container {
+    grid-template-columns: auto;
+
+  }
+
+  .background {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .background-large {
+    display: grid;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .price {
+    font-size: 1rem
+  }
+
+  .tablas-gold-premium {
+    background-image: url(/img/img-media-query/tablas-gold-p.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .tablas-premium {
+    background-image: url(/img/img-media-query/premium.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .tablas-ookini {
+    background-image: url(/img/img-media-query/tablas-ookini.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .roll-furay-tempura {
+    background-image: url(/img/img-media-query/tempura.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .sake-roll {
+    background-image: url(/img/img-media-query/sake.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .roll-de-carta {
+    background-image: url(/img/img-media-query/roll-carta.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .hosomaki {
+    background-image: url(/img/img-media-query/hosomaki.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .no-rice {
+    background-image: url(/img/img-media-query/norice.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .chesse-roll {
+    background-image: url(/img/img-media-query/chesse.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .avocado-roll {
+    background-image: url(/img/img-media-query/avocado.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .california-roll {
+    background-image: url(/img/img-media-query/california.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .makis-gold-premium {
+    background-image: url(/img/img-media-query/makis.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .makis-gold-selection {
+    background-image: url(/img/img-media-query/piqueos.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .handrolls {
+    background-image: url(/img/img-media-query/handrolls.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .piqueos {
+    background-image: url(/img/img-media-query/piqueos.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .gohan {
+    background-image: url(/img/img-media-query/gohan.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .canasta {
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .sushiburguers {
+    background-image: url(/img/img-media-query/sushiburger.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .hamburguesas {
+    background-image: url(/img/img-media-query/hamburguesa.webp);
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+
+  /* tragos */
+  .cockteles-clasicos {
+    background-position: center;
+    padding: 0;
+  }
+
+  .energy-drinks {
+    background-position: center;
+    padding: 0;
+  }
+
+  .mojitos {
+    background-position: center;
+    padding: 0;
+  }
+
+  .tragos-espumante {
+    background-position: center;
+    padding: 0;
+  }
+
+  .pisco {
+    background-position: center;
+    padding: 0;
+  }
+
+  .ron {
+    background-position: center;
+    padding: 0;
+  }
+
+  .tequila {
+    background-position: center;
+    padding: 0;
+  }
+
+  .gin {
+    background-position: center;
+    padding: 0;
+  }
+
+  .vodka {
+    background-position: center;
+    padding: 0;
+  }
+
+  .whisky-bourbon {
+    background-position: center;
+    padding: 0;
+  }
+
+  .vinos {
+    background-position: right;
+    padding: 0;
+  }
+
+  .shops {
+    background-position: center;
+    padding: 0;
+  }
+
+  .copy {
+    padding-left: 4vw;
+  }
+
+  .rrss {
+    padding-right: 4vw;
+  }
+}
+
+@media screen and (min-width: 860px) and (max-width: 1280px) {
+  .header {
+    height: 7rem;
+  }
+
+  .logo {
+    width: 9rem;
+    padding: 0.5rem 1rem;
+    line-height: 4rem;
+  }
+
+  .controls {
+    display: none;
+  }
+
+  .landing-p {
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1.5rem;
+    border-radius: 5%;
+  }
+
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/img-media-query/background.webp);
+    align-items: center;
+  }
+
+  .logo-landing {
+    height: auto;
+    width: 15rem;
+  }
+
+  .landing-p {
+    font-size: 1.5rem;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    margin: 0;
+    background-color: darkgrey;
+    position: fixed;
+    left: 0;
+    top: 7rem;
+    width: 100%;
+    align-items: center;
+    padding: 0.5rem 0;
+
+    height: calc(100% - 4rem);
+    overflow-y: auto;
+    left: 100%;
+    transition: left 0.3s;
+  }
+
+  .nav-menu-item {
+    line-height: 5rem;
+  }
+
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    background: none;
+    color: darkgrey;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-menu_visible {
+    left: 0;
+  }
+
+  .container {
+    grid-template-columns: auto;
+
+  }
+
+  .background {
+    gap: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .background-large {
+    display: grid;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .price {
+    font-size: 1rem
+  }
+
+  .tablas-gold-premium {
+    background-image: url(/img/img-media-query/tablas-gold-p.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .tablas-premium {
+    background-image: url(/img/img-media-query/premium.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .tablas-ookini {
+    background-image: url(/img/img-media-query/tablas-ookini.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .roll-furay-tempura {
+    background-image: url(/img/img-media-query/tempura.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .sake-roll {
+    background-image: url(/img/img-media-query/sake.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .roll-de-carta {
+    background-image: url(/img/img-media-query/roll-carta.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .hosomaki {
+    background-image: url(/img/img-media-query/hosomaki.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .no-rice {
+    background-image: url(/img/img-media-query/norice.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .chesse-roll {
+    background-image: url(/img/img-media-query/chesse.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .avocado-roll {
+    background-image: url(/img/img-media-query/avocado.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .california-roll {
+    background-image: url(/img/img-media-query/california.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .makis-gold-premium {
+    background-image: url(/img/img-media-query/makis.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .makis-gold-selection {
+    background-image: url(/img/img-media-query/piqueos.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .handrolls {
+    background-image: url(/img/img-media-query/handrolls.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .piqueos {
+    background-image: url(/img/img-media-query/piqueos.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .gohan {
+    background-image: url(/img/img-media-query/gohan.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .canasta {
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+  }
+
+  .sushiburguers {
+    background-image: url(/img/img-media-query/sushiburger.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .hamburguesas {
+    background-image: url(/img/img-media-query/hamburguesa.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 0;
+  }
+
+  .cockteles-clasicos {
+    background-position: center;
+    padding: 0;
+  }
+
+  .energy-drinks {
+    background-position: center;
+    padding: 0;
+  }
+
+  .mojitos {
+    background-position: center;
+    padding: 0;
+  }
+
+  .tragos-espumante {
+    background-position: center;
+    padding: 0;
+  }
+
+  .pisco {
+    background-position: center;
+    padding: 0;
+  }
+
+  .ron {
+    background-position: center;
+    padding: 0;
+  }
+
+  .tequila {
+    background-position: center;
+    padding: 0;
+  }
+
+  .gin {
+    background-position: center;
+    padding: 0;
+  }
+
+  .vodka {
+    background-position: center;
+    padding: 0;
+  }
+
+  .whisky-bourbon {
+    background-position: center;
+    padding: 0;
+  }
+
+  .vinos {
+    background-position: right;
+    padding: 0;
+  }
+
+  .shops {
+    background-position: center;
+    padding: 0;
+  }
+
+  .copy {
+    padding-left: 4vw;
+  }
+
+  .rrss {
+    padding-right: 4vw;
+  }
+
+}
