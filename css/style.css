@@ -266,14 +266,17 @@ body {
   background: transparent;
   text-align: center;
   font-size: 1.5em;
-  padding: 20px;
+  /* padding: 20px; */
   box-sizing: border-box;
 }
 
 .slide-opacity {
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 4rem;
-  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .day {
@@ -282,6 +285,7 @@ body {
 
 .d-day {
   font-size: 4vh;
+  padding: 2rem;
 }
 
 #slide-0 {
@@ -810,8 +814,11 @@ button {
   }
 
   .slider {
-    width: 300px;
+    width: 100%;
     height: 200px;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
   }
 
   .logo-landing {
@@ -1157,6 +1164,14 @@ button {
     display: none;
   }
 
+  .slider {
+    width: 100%;
+    height: 300px;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
   .logo-landing {
     height: 7rem;
     background-color: rgba(0, 0, 0, 0.8);
@@ -1499,6 +1514,14 @@ button {
     display: none;
   }
 
+  .slider {
+    width: 100%;
+    height: 400px;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
   .landing-p {
     font-size: 1.2rem;
     background-color: rgba(0, 0, 0, 0.6);
@@ -1806,6 +1829,14 @@ button {
 
   .controls {
     display: none;
+  }
+
+  .slider {
+    width: 100%;
+    height: 500px;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
   }
 
   .landing-p {
