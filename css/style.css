@@ -288,6 +288,11 @@ body {
   padding: 2rem;
 }
 
+.d-day2 {
+  font-size: 6vh;
+  padding: 2rem;
+}
+
 #slide-0 {
   background-image: url(/img/Definidos/roll-carta.webp);
   background-size: cover;
@@ -927,11 +932,16 @@ button {
   }
 
   .day {
-    font-size: small;
+    font-size: 9vw;
   }
 
   .d-day {
-    font-size: x-small;
+    font-size: 6vw;
+  }
+
+  .d-day2 {
+    font-size: 2vh;
+    padding: 2rem;
   }
 
   .description-product {
@@ -1278,11 +1288,16 @@ button {
   }
 
   .day {
-    font-size: medium;
+    font-size: 9vw;
   }
 
   .d-day {
-    font-size: small;
+    font-size: vw;
+  }
+
+  .d-day2 {
+    font-size: 2vh;
+    padding: 2rem;
   }
 
   .description-product {
@@ -1589,11 +1604,16 @@ button {
   }
 
   .day {
-    font-size: large;
+    font-size: 9vw;
   }
 
   .d-day {
-    font-size: medium;
+    font-size: 6vw;
+  }
+
+  .d-day2 {
+    font-size: 2vh;
+    padding: 2rem;
   }
 
   .background {
@@ -1903,11 +1923,17 @@ button {
   }
 
   .day {
-    font-size: larger;
+    font-size: 9vw;
   }
 
   .d-day {
-    font-size: large;
+    font-size: 6vw;
+
+  }
+
+  .d-day2 {
+    font-size: 2vh;
+    padding: 2rem;
   }
 
   .background {

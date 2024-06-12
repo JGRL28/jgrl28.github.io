@@ -68,4 +68,3 @@ document.addEventListener("DOMContentLoaded", function () {
         showSlide(currentIndex);
     }, 10000);
 });
-console.log("hola mundo")
