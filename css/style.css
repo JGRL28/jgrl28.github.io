@@ -219,6 +219,7 @@ body {
   font-size: 5vh;
   display: flex;
   align-items: center;
+
 }
 
 .promo {
@@ -230,7 +231,15 @@ body {
 
 .item-p {
   font-size: 4vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px;
+  transform: skewY(-2deg);
+}
 
+.item-p-b {
+  background-color: #db272f;
+  padding: 5px;
+  transform: skewY(-2deg);
 }
 
 .item {
@@ -242,28 +251,33 @@ body {
 }
 
 .item-1 {
-  background-image: url(/img/Definidos/roll-carta.webp);
+  background-image: url(/img/landing/rollcarta.webp);
+  background-size: cover;
   border-bottom: 2px solid #f6f6f6;
   border-top: 2px solid #f6f6f6;
 }
 
 .item-2 {
-  background-image: url(/img/Definidos/premium.webp);
+  background-image: url(/img/landing/piscola.webp);
+  background-size: cover;
   border-bottom: 2px solid #f6f6f6;
 }
 
 .item-3 {
-  background-image: url(/img/tragos/mojito-ampliado.webp);
+  background-image: url(/img/landing/Mojito.webp);
+  background-size: cover;
   border-bottom: 2px solid #f6f6f6;
 }
 
 .item-4 {
-  background-image: url(/img/tragos/caipiriña-ampliado.webp);
+  background-image: url(/img/landing/sabores.webp);
+  background-size: cover;
   border-bottom: 2px solid #f6f6f6;
 }
 
 .item-5 {
-  background-image: url(/img/tragos/schops.webp);
+  background-image: url(/img/landing/schop.webp);
+  background-size: cover;
   border-bottom: 2px solid #f6f6f6;
 }
 
