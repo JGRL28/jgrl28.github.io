@@ -88,6 +88,14 @@ Fuentes para usar
   font-style: italic;
 }
 
+.maiden-orange-regular {
+  font-family: "Maiden Orange", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
 /* root {} */
 
 * {
@@ -209,77 +217,20 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 17vh 17vh 17vh 17vh 17vh;
-  grid-template-columns: 100%;
-  transform: skewY(-5deg);
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 300px 300px 300px;
   width: 100%;
-}
-
-.item-title {
-  font-size: 5vh;
-  display: flex;
-  align-items: center;
-
-}
-
-.promo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 1rem;
   justify-content: center;
 }
 
-.item-p {
-  font-size: 4vh;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 5px;
-  transform: skewY(-2deg);
-}
-
-.item-p-b {
-  background-color: #db272f;
-  padding: 5px;
-  transform: skewY(-2deg);
-}
-
 .item {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  padding-left: 5rem;
-  padding-right: 10rem;
+  height: 300px;
+  width: 300px;
+  border: #d1d1d1 solid 5px;
+  border-radius: 15px;
 }
 
-.item-1 {
-  background-image: url(/img/landing/rollcarta.webp);
-  background-size: cover;
-  border-bottom: 2px solid #f6f6f6;
-  border-top: 2px solid #f6f6f6;
-}
-
-.item-2 {
-  background-image: url(/img/landing/piscola.webp);
-  background-size: cover;
-  border-bottom: 2px solid #f6f6f6;
-}
-
-.item-3 {
-  background-image: url(/img/landing/Mojito.webp);
-  background-size: cover;
-  border-bottom: 2px solid #f6f6f6;
-}
-
-.item-4 {
-  background-image: url(/img/landing/sabores.webp);
-  background-size: cover;
-  border-bottom: 2px solid #f6f6f6;
-}
-
-.item-5 {
-  background-image: url(/img/landing/schop.webp);
-  background-size: cover;
-  border-bottom: 2px solid #f6f6f6;
-}
 
 /* --------- */
 
@@ -762,20 +713,14 @@ body {
   }
 
   .container {
-    grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
-
+    display: grid;
+    grid-template-columns: 10rem 10rem;
+    grid-template-rows: 10rem 10rem 10rem;
   }
 
   .item {
-    padding: 1rem;
-  }
-
-  .item-title {
-    font-size: 1rem;
-  }
-
-  .item-p {
-    font-size: 0.7rem;
+    height: 10rem;
+    width: 10rem;
   }
 
   #navegador {
@@ -802,8 +747,6 @@ body {
     flex-direction: column;
     /* background-image: url(/img/img-media-query/background.webp);
     background-size: cover; */
-    height: 100vh;
-    width: 100vw;
     align-items: center;
   }
 
@@ -1109,25 +1052,19 @@ body {
     display: none;
   }
 
-  .container {
-    grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
+  #navegador {
+    font-size: 1.3rem;
+  }
 
+  .container {
+    display: grid;
+    grid-template-columns: 10rem 10rem;
+    grid-template-rows: 10rem 10rem 10rem;
   }
 
   .item {
-    padding: 2rem;
-  }
-
-  .item-title {
-    font-size: 1.5rem;
-  }
-
-  .item-p {
-    font-size: 0.7rem;
-  }
-
-  #navegador {
-    font-size: 1.3rem;
+    height: 10rem;
+    width: 10rem;
   }
 
 
@@ -1147,8 +1084,6 @@ body {
     flex-direction: column;
     /* background-image: url(/img/img-media-query/background.webp);
     background-size: cover; */
-    height: 100vh;
-    width: 100vw;
     align-items: center;
   }
 
@@ -1442,29 +1377,23 @@ body {
     line-height: 4rem;
   }
 
-  .container {
-    grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
-
-  }
-
-  .item {
-    padding: 2rem;
-  }
-
-  .item-title {
-    font-size: 1.5rem;
-  }
-
-  .item-p {
-    font-size: 1rem;
-  }
-
   #navegador {
     font-size: 1.3rem;
   }
 
   .navegador-label {
     padding: 0;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 10rem 10rem;
+    grid-template-rows: 10rem 10rem 10rem;
+  }
+
+  .item {
+    height: 10rem;
+    width: 10rem;
   }
 
   .landing-p {
@@ -1758,23 +1687,6 @@ body {
     width: 9rem;
     padding: 0.5rem 1rem;
     line-height: 4rem;
-  }
-
-  .container {
-    grid-template-rows: 15vh 15vh 15vh 15vh 15vh;
-
-  }
-
-  .item {
-    padding: 3rem;
-  }
-
-  .item-title {
-    font-size: 2rem;
-  }
-
-  .item-p {
-    font-size: 1.5rem;
   }
 
   #navegador {
