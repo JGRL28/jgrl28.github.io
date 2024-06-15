@@ -120,10 +120,8 @@ section {
 }
 
 body {
-  /* background: linear-gradient(45deg, #000000 40%, #d1d1d1); */
   background-image: url(/img/Background.webp);
-
-  /* background-color: #4f4f4f; */
+  background-size: contain;
 }
 
 /*  Header */
