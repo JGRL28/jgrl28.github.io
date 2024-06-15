@@ -21,6 +21,20 @@ document.getElementById("navegadorSelect").addEventListener("change", function (
         window.location.href = selectedOption;
     }
 });
+// carga de imagen con lazy loading
+document.addEventListener("DOMContentLoaded", function () {
+    var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.backgroundImage = 'url("../img/Background.webp")';
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: "100px" }); // Ajusta rootMargin según necesites
 
-// Slider
+    document.querySelectorAll('body').forEach(el => {
+        observer.observe(el);
+    });
+});
+
 

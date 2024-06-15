@@ -44,8 +44,8 @@
         <nav class="nav">
             <a href="index.html" class="logo"><img class="logo-class" src="img/logosushi-trans-dark-2.webp"
                     alt="logo-Ookini"></a>
-            <button class="nav-toggle">
-                <i class="fa-solid fa-bars"></i>
+            <button class="nav-toggle" aria-label="Despliegue">
+                <i aria-hidden="true" class="fa-solid fa-bars"></i>
             </button>
             <ul class="nav-menu">
                 <li class="nav-menu-item">
@@ -81,27 +81,32 @@
 
             <article class="container">
                 <div class="item-1">
-                    <img class="item" src="/img/promo/lunes.webp" alt="Promocion del dia Lunes y Martes">
+                    <img class="item" src="/img/promo/300x300/lunes.webp" alt="Promocion del dia Lunes y Martes"
+                        loading="lazy">
                 </div>
 
                 </div>
                 <div class="item-2">
-                    <img class="item" src="/img/promo/miercoles.webp" alt="Promocion del dia Miercoles">
+                    <img class="item" src="/img/promo/300x300/miercoles.webp" alt="Promocion del dia Miercoles"
+                        loading="lazy">
                 </div>
 
                 </div>
                 <div class="item-3">
-                    <img class="item" src="/img/promo/jueves.webp" alt="Promocion del dia Jueves">
+                    <img class="item" src="/img/promo/300x300/jueves.webp" alt="Promocion del dia Jueves"
+                        loading="lazy">
                 </div>
 
                 </div>
                 <div class="item-4">
-                    <img class="item" src="/img/promo/viernes.webp" alt="Promocion del dia Viernes">
+                    <img class="item" src="/img/promo/300x300/viernes.webp" alt="Promocion del dia Viernes"
+                        loading="lazy">
                 </div>
 
                 </div>
                 <div class="item-5">
-                    <img class="item" src="/img/promo/sabado.webp" alt="Promocion del dia Sábado">
+                    <img class="item" src="/img/promo/300x300/sabado.webp" alt="Promocion del dia Sábado"
+                        loading="lazy">
                 </div>
 
                 </div>
@@ -123,7 +128,7 @@
                 <h2 id="navegador">¡Navega por nuestra carta! </h2>
                 <label for="navegadorSelect" class="navegador-label">
 
-                    <select id="navegadorSelect" name="navegador">
+                    <select id="navegadorSelect" aria-label="Navegador por la pagina">
                         <option disabled selected value>-- Elige una sección --</option>
                         <option value="#tablas-gold-premium">Tablas Gold Premium</option>
                         <option value="#tablas-premium">Tablas Premium</option>
