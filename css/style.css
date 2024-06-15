@@ -121,7 +121,8 @@ section {
 
 body {
   background-image: url(/img/Background.webp);
-  background-size: contain;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*  Header */
